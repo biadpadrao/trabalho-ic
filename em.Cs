@@ -3,7 +3,7 @@ using System;
 class Program {
   public static void Main (string[] args) {
   int x, y, z; // lado 1, lado 2, lado 3
-    while (true) {
+    do {
     Console.Write("\nDigite 3 valores reais: \n");
     x = int.Parse(Console.ReadLine ());
     y = int.Parse(Console.ReadLine ());
@@ -25,6 +25,6 @@ class Program {
     } else {
       Console.WriteLine("Triângulo inválido.\n");
     }
-  }
-  }
+  } while ((x != 0) && (y != 0) && (z != 0));
+ } 
 }
