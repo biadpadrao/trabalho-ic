@@ -5,7 +5,7 @@ class Main {
     int x, y, z; // lado 1, lado 2, lado 3
     Scanner entrada = new Scanner(System.in);
     
-    while (true) {
+    do {
     System.out.print ("\nDigite 3 valores reais: \n");
     x = entrada.nextInt();
     y = entrada.nextInt();
@@ -27,6 +27,6 @@ class Main {
     } else {
       System.out.print ("Triângulo inválido.\n");
     }
-  }
-  }
+  } while ((x !=0) && (y != 0) && (z != 0));
+ }
 }
