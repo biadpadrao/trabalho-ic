@@ -1,0 +1,15 @@
+variáveis: x, y, x
+
+FAZER ENQUANTO todos os valores forem diferentes de zero
+ESCREVA Digite 3 valores reais
+LEIA x, y, z
+SE a soma de 2 valores for maior que o outro valor (critério para ser triângulo)
+  SE 3 valores iguais
+   ESCREVA Triângulo equilátero
+  SENÃO SE 2 valores iguais e 1 diferente
+   ESCREVA Triângulo isósceles
+  SENÃO SE 3 valores diferentes
+   ESCREVA Triângulo escaleno
+  SENÃO cálculo inválido
+   ESCREVA Triângulo inválido
+FIM
