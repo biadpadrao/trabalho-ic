@@ -3,7 +3,7 @@ using namespace std;
 
 int main(void) {
   int x, y, z; // lado 1, lado 2, lado 3
-  while (1) {
+  do {
     cout << "\nDigite 3 valores reais: \n";
     cin >> x >> y >> z;
     if ((z < x + y) && (y < y + z) && (x < z + y)) { // criterio para ser triangulo
@@ -23,5 +23,5 @@ int main(void) {
     } else {
       cout << "Triângulo inválido.\n";
     }
-  }
+  } while ((x != 0) && (y != 0) && (z != 0));
 }
